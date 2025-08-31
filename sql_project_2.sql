@@ -1,6 +1,9 @@
 create database sql_project_2;
+
 use sql_project_2;
+
 drop table if exists retail_sales;
+
 create table retail_sales
 (transactions_id int primary key,
 sale_date date,	
